@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getname_1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "setName_1",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Scribble.sol": "TestContract_1"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Scribble.sol": {
+			"keccak256": "0xc6174e93b9f1f2fdc371e4e5c8706676cf22375aaae1151e5b0bbda3b2331733",
+			"urls": [
+				"bzz-raw://e0e54f0fc329f7b206592c8ecd1bc1b411db864886f6ec16966fb3b89ea5805b",
+				"dweb:/ipfs/QmSm8YDnFVmmqUF6uroVQ1JZTmWqXJa3ju5uStYD4qfr7e"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ApartmentNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_OwnerName",
+						"type": "string"
+					}
+				],
+				"name": "AddApartmentData",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "GetApartmentInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"struct.sol": "Arraylearning"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"struct.sol": {
+			"keccak256": "0xcd0b765085e34a0d25d104b680fd8ca2f4d4f7dd2f139bfab47b2d79bf73aee0",
+			"urls": [
+				"bzz-raw://7c27e2a63efe497257e3c6d37f2008c382e452a8b349af4593cf8ba2d9076acd",
+				"dweb:/ipfs/QmXdMybEQGQDsKUhCyWrjQknLbj73SdCBvjvJ9ezkkgGPQ"
+			]
+		}
+	},
+	"version": 1
+}

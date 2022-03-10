@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_ApartmentNo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_OwnerName",
+						"type": "string"
+					}
+				],
+				"name": "AddApartmentData",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "GetApartmentInfo",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"struct.sol": "S"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"struct.sol": {
+			"keccak256": "0x1a35374586d2db83f417b621af667e0604a89f5a24b94239e83dff0108cf5030",
+			"urls": [
+				"bzz-raw://9edc7a739a263254493cd0ccdb01511a4fab843918538c29863762b8854368ce",
+				"dweb:/ipfs/QmZRXHC7wZidyxuBHowkvtCEGG2ptWKZNqqKG6T34AK8e2"
+			]
+		}
+	},
+	"version": 1
+}
